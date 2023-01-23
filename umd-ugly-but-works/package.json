@@ -1,0 +1,14 @@
+{
+  "name": "umd-ugly-but-works",
+  "version": "0.1.0",
+  "description": "",
+  "main": "foo2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "npx -p prettier@2.x -- prettier -w '**/*.{js,md}'",
+    "lint": "npx -p typescript@4.x -- tsc -p ./jsconfig.json"
+  },
+  "keywords": [],
+  "author": "AJ ONeal <aj@therootcompany.com> (https://throotcompany.com/)",
+  "license": "SEE LICENSE IN LICENSE"
+}

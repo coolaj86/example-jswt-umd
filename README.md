@@ -1,7 +1,6 @@
 # example-jswt-umd
 
-Demo of an attempt to get Node, Vite, Vanilla Browser JS, and TSC to all work
-together.
+Demo of an attempt to get Vanilla JS with Types that works with TSC and is consumable by Node, Vite, and Browser (script tags) without modification.
 
 ## Goal
 

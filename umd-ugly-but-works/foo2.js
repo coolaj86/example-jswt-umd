@@ -23,8 +23,6 @@ var Foo2 = ("object" === typeof module && exports) || {};
   Foo2.greet = function (name) {
     console.log(`Hello, ${name}!`);
   };
-
-  return Foo2;
 })(globalThis.window || {}, Foo2);
 if ("object" === typeof module) {
   module.exports = Foo2;
